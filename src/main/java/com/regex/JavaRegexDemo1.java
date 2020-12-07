@@ -72,7 +72,7 @@ import java.util.regex.Pattern;
  *     至少有 n 个捕获，则 n 是反向引用，后面跟有字符 m。如果两种前面的情况都不存在，则 \nm 匹配八进制值 nm，其中 n
  *     和 m 是八进制数字 (0-7)。
  * 46. \nml：当 n 是八进制数 (0-3)，m 和 l 是八进制数 (0-7) 时，匹配八进制转义码 nml。
- * 47. \un：匹配 n，其中 n 是以四位十六进制数表示的 Unicode 字符。例如，\u00A9 匹配版权符号 (?)。
+ * 47. \\un：匹配 n，其中 n 是以四位十六进制数表示的 Unicode 字符。例如，\u00A9 匹配版权符号 (?)。
  */
 
 public class JavaRegexDemo1 {
